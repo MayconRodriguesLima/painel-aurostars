@@ -13,7 +13,7 @@ body::before{
     background-position: center;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     opacity: 0.5;
 }
@@ -21,14 +21,16 @@ body::before{
 .cabecalho {
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }
 
 .selecao-de-personagens {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     min-height: calc(100vh - 140px);
     justify-content: center;
+    align-items: stretch;
 }
 
 .selecao-de-personagens .lista-de-personagens {
@@ -90,5 +92,5 @@ body::before{
     text-align: center;
     margin-top: 20px;
     width: 420px;
-    color: white;
+    color:white;
 }
